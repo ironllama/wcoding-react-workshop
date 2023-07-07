@@ -4,7 +4,7 @@ The following are instructions to run the included example React projects.
 
 You can clone this repo, and then in your Terminal/Command Line, use the following commands to get started.
 
-Note that there is also a CodeSandbox link for these, if you want to try playing with the repo without cloning, downloading and running on your workstation. Follow the link and then hit the small + next to the "Setup" tab on the right half of the UI and select a "New terminal" to enter the commands below. (Link: https://codesandbox.io/p/github/ironllama/wcoding-react-workshop/master)
+Note that there is also a CodeSandbox link for these, if you want to try playing with the repo without cloning, downloading and running on your workstation. Create an account on `codesandbox.io` if you don't already have an account, then follow the link at the end of this paragraph. Once the project opens, select the "Fork project" option on the upper right. (Might be collapsed below the "Create Branch" option.) After you've forked to your own account, hit the small + next to the "Setup" tab on the right half of the UI and select a "New terminal" to enter the commands below. (Link: https://codesandbox.io/p/github/ironllama/wcoding-react-workshop/master)
 
 ### reactjs
 This project is purely browser based. It will download all the ncessary libraries and do all the compiling on the browser. However, it does go back to pick up other JS files, so if you just double-click on `index.html` to display in your browser, you'll run into CORS issues. Instead, start a webserver:
