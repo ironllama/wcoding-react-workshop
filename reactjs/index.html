@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather - React</title>
+    <script
+      src="https://unpkg.com/@babel/standalone/babel.min.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .weatherInput {
+      }
+
+      .weatherOutput {
+        height: 225px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+      }
+
+      button {
+        background-color: orange;
+        color: white;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 3px 12px;
+        border: none;
+        border-radius: 3px;
+        margin-left: 3px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel" src="App.js"></script>
+    <script type="text/babel" src="WeatherInput.js"></script>
+    <script type="text/babel" src="weatherOutput.js"></script>
+    <script type="text/babel">
+      // NOTE:
+      // 1. For the ReactJS version of this tutorial, you do NOT use export defaults on your components.
+      // 2. You do not import useState, but instead, use React.useState when you want to use it.
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(<App />);
+    </script>
+  </body>
+</html>
