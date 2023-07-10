@@ -1,0 +1,36 @@
+.guideLinesPage {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    background-image: url('../assets/starfield-purp.jpg');
+    background-size: cover;
+}
+
+.guideText {
+    width: 100%;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    font-size: 0.8em;
+  }
+  
+  .colorSentence {
+    color: purple;
+    font-weight: bold;
+  }
+  
+  .guideTextWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .guideTextWrapper img {
+    width: 150px;
+  }
