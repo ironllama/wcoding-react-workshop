@@ -17,23 +17,34 @@ This project is purely browser based. It will download all the ncessary librarie
 ## weather-app-cra
 This project was created using `npx create-react-app`. It is the classic way of starting a React project, but has lately fallen out of favor because of slow adoption of changes and features that were implemented by other frameworks and had become popular and expected with create-react-app. (See: https://github.com/reactjs/react.dev/pull/5487#issuecomment-1409720741) Anyway, it still works and still does a decent enough job.
 - `cd weather-app-cra`
-- `npm install` (only has to be run once, the first time)
+- `npm ci` or `npm install` (only has to be run once, the first time)
 - `npm start`
 - Open your browser to the suggested port after the previous task finishes building. By default it is `localhost:3000`.
 
 ## weather-app-next
 This project was created using `npx create-next-app`. It is the newly recommended way of creating a React app, per the React documentation. It has a high initial time cost, but the feature set is rich and the framework has a lot of features.
 - `cd weather-app-next`
-- `npm install` (only has to be run once, the first time)
+- `npm ci` or `npm install` (only has to be run once, the first time)
 - `npm run dev` or `next dev`
 - Open your browser to the suggested port after the previous task finishes building. By default it is `localhost:3000`.
 
 ### weather-app-vite
 This project was created using `npx create vite@latest`. The `React` framework and `Javascript + SWC` options were selected. The SWC (Speedy Web Compiler) is a new JS/TS compiler, and competes with ESBuild, and is much faster than the standard Babel. It is also a smaller environment (fewer libraries), so it installs fast, builds fast, and runs fast.
 - `cd weather-app-vite`
-- `npm install` (only has to be run once, the first time)
+- `npm ci` or `npm install` (only has to be run once, the first time)
 - `npm run dev`
 - Open your browser to the suggested port after the previous task finishes building. By default it is `localhost:5173`.
 
 ## todos
 Another Next.js project.
+- `cd todos`
+- `npm ci` or `npm install` (only has to be run once, the first time)
+- `npm run dev` or `next dev`
+- Open your browser to the suggested port after the previous task finishes building. By default it is `localhost:3000`.
+
+## guildlines
+Quick demo build of a screen, using vite, per weather-app-vite above.
+- `cd guidelines`
+- `npm ci` or `npm install` (only has to be run once, the first time)
+- `npm run dev`
+- Open your browser to the suggested port after the previous task finishes building. By default it is `localhost:5173`.
